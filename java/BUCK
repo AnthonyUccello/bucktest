@@ -1,0 +1,34 @@
+android_binary(
+  name = 'pumpup',
+  manifest = 'AndroidManifest.xml',
+  keystore = ':debug_keystore',
+  deps = [
+    ':res',
+    ':src',
+  ],
+)
+
+android_resource(
+  name = 'res',
+  res = 'res',
+  assets = 'assets',
+  manifest = 'AndroidManifest.xml',
+)
+
+android_library(
+  name = 'src',
+  srcs = glob(['src/**/*.java']),
+  deps = [
+    ':res',
+  ],
+)
+
+keystore(
+  name = 'debug_keystore',
+  store = 'debug.keystore',
+  properties = 'debug.keystore.properties',
+)
+
+project_config(
+  src_target = ':app',
+)

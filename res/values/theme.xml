@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PumpUp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pumpup_blue</item>
+        <item name="colorPrimaryDark">@color/pumpup_blue_dark</item>
+        <item name="colorAccent">@color/pumpup_blue_dark</item>
+        <item name="android:windowBackground">@color/pumpup_blue</item>
+    </style>
+    <color name="pumpup_blue">#ff2dbdf2</color>
+    <color name="pumpup_blue_dark">#218bb2</color>
+</resources>

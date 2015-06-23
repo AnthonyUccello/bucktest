@@ -1,0 +1,4 @@
+appcompat-v7
+gpuimage-library
+support-annotations
+support-v4

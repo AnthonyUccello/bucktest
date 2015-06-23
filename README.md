@@ -1,2 +1,1 @@
-# bucktest
- A repo to test buck building
+Let's get BUCK working :)
